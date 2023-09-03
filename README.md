@@ -4,7 +4,7 @@
   such as a constructor, and getter / setter for each attribute. If typing criteria is not followed then and exception
   is raised.
 
-  Installation:
+  ## Installation:
   Add to your mix.exs
 
   ```elixir
@@ -13,7 +13,7 @@
     ]
   ```
 
-  Setup:
+  ## Setup:
   ```elixir
   defmodule MyModule do
     use StructHelper
@@ -43,7 +43,7 @@
   end
   ```
 
-  Usage / Application:
+  ## Usage / Application:
 
   ```
   MyModule.constructor(
@@ -55,6 +55,13 @@
     )
   )
   ```
+
+  ## Result:
+
+  <img src="https://raw.githubusercontent.com/otboss/struct_helpers/assets/assets/struct_helpers_demo.png"/>
+
+<br/>
+<br/>
 
   Supports up to 30 attributes. If more than 30 attributes are needed you may use the generator script file (JavaScript) provided here:
   <a href="https://github.com/otboss/struct_helpers/blob/master/lib/generator.js">https://github.com/otboss/struct_helpers/blob/master/lib/generator.js</a>
