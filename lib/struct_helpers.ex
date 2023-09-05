@@ -9,7 +9,7 @@ defmodule StructHelpers do
 
   ```elixir
     [
-      {:struct_helpers, "~> 0.1.0"}
+      {:struct_helpers, "~> 0.1.3"}
     ]
   ```
 
@@ -69,7 +69,7 @@ defmodule StructHelpers do
 
   defmacro __using__(_) do
     quote do
-      import AffliatagsBackend.Macros.StructHelper
+      import StructHelpers
     end
   end
 

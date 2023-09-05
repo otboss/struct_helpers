@@ -10,7 +10,7 @@
 
   ```elixir
     [
-      {:struct_helpers, "~> 0.1.0"}
+      {:struct_helpers, "~> 0.1.3"}
     ]
   ```
 

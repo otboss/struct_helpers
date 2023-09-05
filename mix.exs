@@ -1,7 +1,7 @@
 defmodule StructHelpers.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.3"
   @repo_url "https://github.com/otboss/struct_helpers"
 
   def project do
