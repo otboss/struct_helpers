@@ -1,7 +1,7 @@
 # StructHelpers
 
   This module provides macros that create structs with type-safe helper functions that would be found in OOP languages
-  such as a constructor and getters / setters for each field. If a typing criteria is not followed then and exception
+  such as a constructor and getters / setters for each field. If a typing criteria is not followed then an exception
   is raised.
 
 ## Installation:
